@@ -10,7 +10,7 @@ body {
 
 
 h1 {font-weight: normal; color: #EFDD98; font-family: "Manuscrite"; font-size: 80; padding-top: 50px;}
-h2 {font-weight: normal; color: #EFDD98; font-family: "Manuscrite"; font-size: 40; 
+h2 {font-weight: normal; color: #EFDD98; font-family: "Manuscrite"; font-size: 50; 
     text-decoration: none;}
 h3 {font-weight: normal; color: white; font: script; font-size: 20;}
 
@@ -25,9 +25,9 @@ nav {list-style-type:none;}
 
 .Texte_courant {color: black; font: Times New Roman; font-size: 15}
 
- .copyright {color: black; font: Times New Roman; font-size: 10}
+.copyright {color: black; font: Times New Roman; font-size: 10}
 
- .Sources {color: #EFDD98; font: Times New Roman; font-size: 14}
+.Sources {color: #EFDD98; font-family: script; font-size: 14}
 
 .Recherche {top: 2px; width: 230px;}
 
@@ -39,6 +39,10 @@ nav {list-style-type:none;}
 
 a {text-decoration: none;}
 
+a:-webkit-any-link {
+    color: grey;
+    cursor: pointer;
+}
 
 /*Menu dépliant*/
 .boutonmenuaccueil {
