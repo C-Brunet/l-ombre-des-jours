@@ -1,0 +1,78 @@
+<class hidden>https://fr.wikisource.org/wiki/L%E2%80%99Ombre_des_jours</class>
+<class hidden>https://etudiant.u-pem.fr/ent-services.php?page=web</class>
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>L'Ombre des jours d'Anna de Noailles</title>
+	<link rel="stylesheet" href="CSS_Ombre.css">
+	<link rel="icon" type="image/png" href="Logo_plume.png">
+	<meta name="author" content="Clémence Brunet">
+</head>
+
+
+<body>
+
+
+	<center>
+		<h1>L'Ombre des jours d'Anna de Noailles</h1>
+
+<div class="Séparateur"><img src="Séparateur-accueil1.png" alt="Séparateur" height= "35px"></div>
+	</center>
+
+
+	<div class="Recherche">
+		<form method="post" action="">
+			<fieldset>
+				
+				<input type="text" id="search" class="text" value="Recherche" onfocus="if (this.value == 'Search!') this.value = '';" onblur="if (this.value == '') this.value = 'Search!';" maxlength="255" />
+				<input type="image" src="Loupe.png" class="button" />
+			</fieldset>
+		</form>
+	</div>
+
+<nav class="menu"></nav>
+
+
+
+
+
+	<h2>Biographie</h2><br>
+
+	<img src="Anna_de_Noailles-Laszlo.jpg" alt="Tableau d'Anna de Noailles par Philip Alexius de Laszlo"><br>
+	<p class="Copyright">© RMN-Grand Palais (Musée d’Orsay) / Hervé Lewandowski</p>
+
+
+	<section><p class=Texte_courant>D’origine gréco-roumaine, Anna de Noailles est née à Paris, où elle vécut de 1876 jusqu’à sa mort, en 1933. À partir de son premier recueil, <i>Le Coeur innombrable</i> (1901), couronné par l’Académie Française, Noailles composa neuf recueils de poèmes, trois romans (dont <i>Visage émerveillé</i>, en 1904), un livre combinant histoires courtes et méditations sur les relations hommes-femmes (<i>Les Innocentes</i>, ou <i>La Sagesse des femmes</i>, 1923), un recueil de proses poétiques (<i>Exactitudes</i>, 1930), et une autobiographie couvrant son enfance et son adolescence (<i>Le Livre de ma vie</i>, 1932).<br><br>
+
+		Au début du xxe siècle, son salon de l'avenue Hoche attire l'élite intellectuelle, littéraire et artistique de l'époque parmi lesquels Edmond Rostand, Francis Jammes, Paul Claudel, Colette, André Gide, Maurice Barrès, René Benjamin, Frédéric Mistral, Robert de Montesquiou, Paul Valéry, Jean Cocteau, Léon Daudet, Pierre Loti, Paul Hervieu, l'abbé Mugnier ou encore Max Jacob, Robert Vallery-Radot et François Mauriac. C'est également une amie de Georges Clemenceau.<br><br>
+
+		En 1904, avec d'autres femmes, parmi lesquelles Jane Dieulafoy, Julia Daudet, Daniel Lesueur, Séverine et Judith Gautier, fille de Théophile Gautier, elle crée le prix « Vie Heureuse », issu de la revue La Vie heureuse, qui deviendra en 1922 le prix Fémina, récompensant la meilleure œuvre française écrite en prose ou en poésie. Elle en est la présidente la première année, et laisse sa place l'année suivante à Jane Dieulafoy.<br><br>
+
+
+		Anna de Noailles fut la seule femme poète de son temps à recevoir les plus hautes distinctions publiques. Elle est la première femme élevée au grade de commandeur de la Légion d'honneur et la première femme reçue à l'Académie royale de langue et de littérature françaises de Belgique (au fauteuil 33, où lui ont succédé Colette puis Jean Cocteau). Elle était aussi membre honorifique de l'Académie roumaine et a été décorée de l'ordre du Sauveur de Grèce et de Pologne. En 1902, elle reçoit le prix Archon-Despérouses. En 1920, son premier recueil de poèmes (<i>Le Cœur innombrable</i>) est couronné par l'Académie française. En 1921, elle en reçoit le grand prix de littérature. Plus tard, l'Académie française créera le prix Anna-de-Noailles en son honneur.
+		En dépit de l’oubli partiel auquel elle fut soumise après sa mort, des jugements critiques ultérieurs confirment que cette reconnaissance était méritée. Reflétant la situation de la poétesse entre romantisme et modernisme, un écart entre forme et contenu caractérise sa poésie où des concepts et des images dynamiques s’efforcent de dissoudre une structure qui reste largement classique.<br><br>
+
+
+		En s’engageant dans un dialogue avec son héritage littéraire français tout en trouvant une source d’inspiration dans le paganisme grec et dans la pensée radicale de Nietzsche, Anna de Noailles est parvenue à construire une vision poétique originale. Son oeuvre peut être décrite en termes dionysiens – extatique, sensuelle, érotique, ludique, quelquefois violente, et toujours marquée par un courant tragique qui devient plus manifeste vers la fin de sa vie.<br></p>
+
+
+
+		<br>
+		<p class=Sources>Sources<br>
+			<a href="https://fr.wikipedia.org/wiki/Anna_de_Noailles">Page Wikipédia d'Anna de Noailles</a><br>
+			<a href="https://www.annadenoailles.org/">Site consacré à la vie et les oeuvres d'Anna de Noailles</a>
+		</p>
+
+	</body>
+
+
+<script>
+fetch('menu.html').then(function (response) {
+	return response.text();
+}).then(function (html) {
+	document.querySelector("nav.menu").innerHTML = html;
+});
+</script>
+</html>
