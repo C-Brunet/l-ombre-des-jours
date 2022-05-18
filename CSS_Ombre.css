@@ -16,6 +16,8 @@ h3 {font-weight: normal; color: white; font: script; font-size: 20;}
 
 p, div, li {color: black; font: Times New Roman; font-size: 14}
 
+nav {list-style-type:none;}
+
 
 .Séparateur {
   margin-top: -50px; margin-bottom: 40px; 
