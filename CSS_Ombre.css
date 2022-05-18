@@ -21,7 +21,7 @@ nav {list-style-type:none;}
 
 .Séparateur {
   margin-top: -50px; margin-bottom: 40px; 
-filter: sepia(100%);
+filter: invert(100%);
 }
 
 .Texte_courant {color: black; font: Times New Roman; font-size: 15}
@@ -35,7 +35,7 @@ filter: sepia(100%);
 .Chapitre {padding-left: 50px; }
 
 
-#SChap1 {font-weight: normal; color: white; font: script; font-size: 20;}
+#SChap1 a {font-weight: normal; color: white; font: script; font-size: 20px;}
 
 
 a {text-decoration: none;}
@@ -119,6 +119,7 @@ color: white;
 padding: 20px;
 text-decoration: none;
 display: block;
+list-style-type: none;
 }
 
 .dropdown:hover .dropdown-child {
