@@ -1,0 +1,214 @@
+body {
+ background-color: #F3F6FF;
+ margin-right: 10px;
+ padding-right: 140px;
+ margin-left: 10px;
+ padding-left: 140px;
+}
+
+@font-face {font-family: "Manuscrite"; src: url("arabella.ttf") format("truetype"); }
+
+
+h1 {font-weight: normal; color: #EFDD98; font-family: "Manuscrite"; font-size: 80; padding-top: 50px;}
+h2 {font-weight: normal; color: #EFDD98; font-family: "Manuscrite"; font-size: 40; 
+    text-decoration: none;}
+h3 {font-weight: normal; color: white; font: script; font-size: 20;}
+
+p, div, li {color: black; font: Times New Roman; font-size: 14}
+
+
+.Séparateur {
+  margin-top: -50px; margin-bottom: 40px; 
+filter: sepia(100%);
+}
+
+.Texte_courant {color: black; font: Times New Roman; font-size: 15}
+
+ .copyright {color: black; font: Times New Roman; font-size: 10}
+
+ .Sources {color: #EFDD98; font: Times New Roman; font-size: 14}
+
+.Recherche {top: 2px; width: 230px;}
+
+.Chapitre {padding-left: 50px; }
+
+
+#SChap1 {font-weight: normal; color: white; font: script; font-size: 20;}
+
+
+a {text-decoration: none;}
+
+
+/*Menu dépliant*/
+.boutonmenuaccueil {
+background-color: #828FB6;
+font-family: "Manuscrite";
+color: white;
+border: none;
+cursor: pointer;
+padding: 20px;
+margin-right: 2px;
+font-size: 30px;
+}
+
+
+.boutonmenurecueil {
+background-color: #828FB6;
+font-family: "Manuscrite";
+font-weight: 10;
+color: white;
+border: none;
+cursor: pointer;
+padding: 20px;
+margin-left: 0px;
+font-size: 30px;
+}
+
+.boutonmenurecueil:hover {
+background-color: #828FB6;
+}
+
+.boutonmenubio {
+background-color: #828FB6;
+font-family: "Manuscrite";
+font-weight: 10;
+color: white;
+border: none;
+cursor: pointer;
+padding: 20px;
+margin-left: 0px;
+font-size: 30px;
+}
+
+.boutonmenubio:hover {
+background-color: #828FB6;
+}
+
+.boutonmenuprojet {
+background-color: #828FB6;
+font-family: "Manuscrite";
+font-weight: 10;
+color: white;
+border: none;
+cursor: pointer;
+padding: 20px;
+margin-left: 0px;
+font-size: 30px;
+}
+
+.boutonmenuprojet:hover {
+background-color: #828FB6;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-child {
+display: none;
+background-color: #828FB6;
+min-width: 50px;
+position: absolute;
+}
+
+.dropdown-child a {
+color: white;
+padding: 20px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown:hover .dropdown-child {
+display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Menu burger*/
+nav {
+	position: absolute;
+	top: 5px;
+	}
+
+#wrap {
+  font-family: serif;
+  font-size: 21px;
+  line-height: 1.6;
+  margin: 5;
+  display: flex;
+  color: white;
+  transition: transform .4s cubic-bezier(.25, .1, .25, 1);
+}
+
+#wrap:not(:target) {
+  transform: translate3d(-335px, 0, 0);
+}
+
+#wrap:target {
+  transform: translate3d(0, 0, 0);
+}
+
+#open, #close {
+  height: 44px;
+  text-align: right;
+  display: block;
+  margin-right: -30px;
+  color: white;
+}
+
+#wrap:target #open,
+#wrap:not(:target) #close {
+  display: none;
+}
+
+#wrap:target #open {
+  display: none;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.header {
+  background: #828FB6;
+  width: 350px;
+  padding: 50px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.nav {
+  padding: 25px;
+}
+
+.main {
+  padding: 25px;
+  flex: 1;
+  display:inline-block;
+}
