@@ -20,8 +20,7 @@ nav {list-style-type:none;}
 
 
 .Séparateur {
-  margin-top: -50px; margin-bottom: 40px; 
-filter: invert(100%);
+  margin-top: -35px; margin-bottom: 40px;
 }
 
 .Texte_courant {color: black; font: Times New Roman; font-size: 15}
