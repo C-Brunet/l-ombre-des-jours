@@ -11,7 +11,10 @@ body {
 
 h1 {font-weight: normal; color: #EFDD98; font-family: "Manuscrite"; font-size: 80; padding-top: 50px;}
 h2 {font-weight: normal; color: #EFDD98; font-family: "Manuscrite"; font-size: 50; 
-    text-decoration: none;}
+    text-decoration: none;
+	margin-block-start: 20px;
+    margin-block-end: 10px;
+    }
 h3 {font-weight: normal; color: white; font: script; font-size: 20;}
 
 p, div, li {color: black; font: Times New Roman; font-size: 14}
@@ -27,14 +30,20 @@ nav {list-style-type:none;}
 
 .copyright {color: black; font: Times New Roman; font-size: 10}
 
-.Sources {color: #EFDD98; font-family: script; font-size: 14}
+.SourcesTitre {color: #EFDD98; font-family: Manuscrite; font-size: 35; 
+		margin-bottom: -0.5px}
+.Sources {color: grey; font-family: script; font-size: 12;}
 
 .Recherche {top: 2px; width: 230px;}
 
-.Chapitre {padding-left: 50px; }
+.Chapitre {column-count: 3}
 
-
-#SChap1 a {font-weight: normal; color: white; font: script; font-size: 20px;}
+#SChap1 a {font-weight: normal; color: #7795B9; font: script; font-size: 17px;}
+#SChap2 a {font-weight: normal; color: #7795B9; font: script; font-size: 17px;}
+#SChap3 a {font-weight: normal; color: #7795B9; font: script; font-size: 17px;}
+#SChap4 a {font-weight: normal; color: #7795B9; font: script; font-size: 17px;}
+#SChap5 a {font-weight: normal; color: #7795B9; font: script; font-size: 17px;}
+#SChap6 a {font-weight: normal; color: #7795B9; font: script; font-size: 17px;}
 
 
 a {text-decoration: none;}
@@ -43,6 +52,7 @@ a:-webkit-any-link {
     color: grey;
     cursor: pointer;
 }
+
 
 /*Menu dépliant*/
 .boutonmenuaccueil {

@@ -1,0 +1,88 @@
+<class hidden>https://fr.wikisource.org/wiki/L%E2%80%99Ombre_des_jours</class>
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>L'Ombre des jours d'Anna de Noailles</title>
+	<link rel="stylesheet" href="CSS_Ombre.css">
+	<link rel="icon" type="image/png" href="Logo_plume.png">
+	<meta name="author" content="Clémence Brunet">
+</head>
+
+
+<body>
+	<center>
+		<h1>L'Ombre des jours d'Anna de Noailles</h1>
+
+<div class="Séparateur"><img src="Séparateur-accueil1.png" alt="Séparateur" height= "35px"></div>
+	</center>
+
+
+	<div class="Recherche">
+		<form method="post" action="">
+			<fieldset>
+				
+				<input type="text" id="search" class="text" value="Recherche" onfocus="if (this.value == 'Search!') this.value = '';" onblur="if (this.value == '') this.value = 'Search!';" maxlength="255" />
+				<input type="image" src="Loupe.png" class="button" />
+			</fieldset>
+		</form>
+	</div>
+
+<nav class="menu"></nav>
+
+
+
+<h2>Bibliographie</h2><br>
+	<section>
+	<h3>Romans</h3>
+	La Nouvelle Espérance (1903) ; disponible sur Wikisource ; réédition, LGF, coll. « Le Livre de poche" Biblio » no 33578 (2015) (ISBN 978-2-253-02045-5)
+	Le Visage émerveillé (Wikisource) (1904)
+	La Domination (1905) lire en ligne [archive] sur Gallica ; réédition, LGF, coll. « Le Livre de poche » (2017)
+	Les Innocentes ou La sagesse des femmes, Paris, Arthème Fayard, s.d.
+
+	<h3>Poésie</h3>
+	Le Cœur innombrable (Wikisource) (1901) lire en ligne [archive] sur Gallica
+	L'Offrande à la nature (1901)
+	L’Ombre des jours (Wikisource) (1902) ; réédition en 2011 aux éditions du Livre unique lire en ligne [archive] sur Gallica
+	Les Éblouissements (Wikisource) (1907) disponible sur la BNR https://ebooks-bnr.com/tag/noailles-anna-de/ [archive]
+	Les Vivants et les Morts (1913) lire en ligne [archive] sur Gallica
+	De la rive d'Europe à la rive d'Asie (1913)
+	Les Forces éternelles (Wikisource) (1920), lire en ligne [archive] sur Gallica
+	Les Innocentes, ou la Sagesse des femmes (1923) ; réédition Buchet-Chastel (2009)
+	Les Climats (1924), lire en ligne [archive] sur Gallica
+	Poème de l'amour (Wikisource) (1924) lire en ligne [archive] sur Gallica
+	Passions et Vanités (1926) [lire en ligne [archive]], lire en ligne [archive] sur Gallica
+	L'Honneur de souffrir (1927) lire en ligne [archive] sur Gallica
+	Poèmes d'enfance17 (Les Amis des Cahiers verts, série III, B. Grasset, 1928)
+	Exactitudes (Grasset, 1930)
+	Choix de poésies, Fasquelle (1930) ; réédition avec préface de Jean Rostand de 1960 chez Grasset (1976)
+	Derniers Vers (1933),
+
+	<h3>Autobiographie</h3>
+	Le Livre de ma vie (1932)
+
+	<h3>Anthologies posthumes</h3>
+	L'Offrande, choix et présentation par Philippe Giraudon, Éditions de la Différence, coll. « Orphée » no 80 (1991) ; réédition en 2012 (ISBN 978-2-7291-1981-2)
+	Anthologie poétique et romanesque : « Je n'étais pas faite pour être morte », LGF, coll. « Le Livre de poche. Classiques » no 32973 (2013) (ISBN 978-2-253-16366-4)
+
+</section>
+
+<br>
+<section class="Sources"><p class=SourcesTitre>Sources<br></p>
+	<a href="https://fr.wikipedia.org/wiki/Anna_de_Noailles">Page Wikipédia d'Anna de Noailles</a><br>
+	<a href="https://www.annadenoailles.org/">Site consacré à la vie et les oeuvres d'Anna de Noailles</a>
+</section>
+
+
+</body>
+
+
+<script>
+fetch('menu.html').then(function (response) {
+	return response.text();
+}).then(function (html) {
+	document.querySelector("nav.menu").innerHTML = html;
+});
+</script>
+</html>
