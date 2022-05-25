@@ -26,6 +26,8 @@ nav {list-style-type:none;}
   margin-top: -35px; margin-bottom: 40px;
 }
 
+.Sommaire_Int {object-position: left;}
+
 .Texte_courant {color: black; font: Times New Roman; font-size: 15}
 
 .Texte_bio {color: black; font: Times New Roman; font-size: 15; columns: 2}
