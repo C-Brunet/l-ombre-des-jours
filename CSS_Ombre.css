@@ -142,7 +142,10 @@ color: white;
 padding: 20px;
 text-decoration: none;
 display: block;
-list-style-type: none;
+}
+
+.dropdown-child li {
+  list-style-type: none;
 }
 
 .dropdown:hover .dropdown-child {
