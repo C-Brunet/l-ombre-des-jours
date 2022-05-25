@@ -1,9 +1,9 @@
 body {
  background-color: #F3F6FF;
- margin-right: 10px;
- padding-right: 140px;
- margin-left: 10px;
- padding-left: 140px;
+ margin-right: 20px;
+ padding-right: 150px;
+ margin-left: 20px;
+ padding-left: 150px;
 }
 
 @font-face {font-family: "Manuscrite"; src: url("arabella.ttf") format("truetype"); }
