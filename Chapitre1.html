@@ -1,0 +1,111 @@
+<class hidden>https://fr.wikisource.org/wiki/L%E2%80%99Ombre_des_jours</class>
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>L'Ombre des jours d'Anna de Noailles</title>
+	<link rel="stylesheet" href="CSS_Ombre.css">
+	<link rel="icon" type="image/png" href="Logo_plume.png">
+	<meta name="author" content="Clémence Brunet">
+</head>
+
+
+<body>
+	<center>
+		<h1>L'Ombre des jours d'Anna de Noailles</h1>
+
+<div class="Séparateur"><img src="Séparateur-accueil1.png" alt="Séparateur" height= "35px"></div>
+	</center>
+
+
+	<div class="Recherche">
+		<form method="post" action="">
+			<fieldset>
+				
+				<input type="text" id="search" class="text" value="Recherche" onfocus="if (this.value == 'Search!') this.value = '';" onblur="if (this.value == '') this.value = 'Search!';" maxlength="255" />
+				<input type="image" src="Loupe.png" class="button" />
+			</fieldset>
+		</form>
+	</div>
+
+<nav class="menu"></nav>
+
+
+<center>
+<h2>Chapitre 1</h2><br>
+
+<h3>Jeunesse</h3>
+	<section class=Texte_courant>
+		<p>Pourtant tu t’en iras un jour de moi, Jeunesse, <br />
+		Tu t’en iras, tenant l’Amour entre tes bras, <br />
+		Je souffrirai, je pleurerai, tu t’en iras, <br />
+		Jusqu’à ce que plus rien de toi ne m’apparaisse. <br />
+		<br />
+		La bouche pleine d’ombre et les yeux pleins de cris, <br />
+		Je te rappellerai d’une clameur si forte <br />
+		Que, pour ne plus m’entendre appeler de la sorte, <br />
+		La Mort entre ses mains prendra mon cœur meurtri.
+		</p>
+		<p><br />
+		Pauvre Amour, triste et beau, serait-ce bien possible <br />
+		Que vous ayant aimé d’un si profond souci, <br />
+		On pût encore marcher sur le chemin durci <br />
+		Où l’ombre de vos pieds ne sera plus visible&#160;? …<br />
+		<br />
+		Revoir sans vous l’éveil douloureux du printemps, <br />
+		Les dimanches de mars, l’orgue de Barbarie, <br />
+		La foule heureuse, l’air doré, le jour qui crie, <br />
+		La musique d’ardeur qu’Yseult dit à Tristan. <br />
+		<br />
+		Sans vous, connaître encore le bruit sourd des voyages, <br />
+		Le sifflement des trains, leur hâte et leur arrêt, <br />
+		Comme au temps juvénile, abondant et secret <br />
+		Où dans vos yeux clignés riaient des paysages. <br />
+		<br />
+		Amour, loin de vos jeux revoir le bord des eaux <br />
+		Où trempent azurés et blancs des quais de pierre, <br />
+		Pareils à ceux qu’un jour, dans l’Hellas printanière, <br />
+		Parcoururent Léandre et la belle Héro.
+		</p>
+		<p><br />
+		Voir sans vous, sous la lune assise au haut du cèdre, <br />
+		La volupté des nuits laiteuses d’Orient, <br />
+		Et souffrir, le passé au cœur se réveillant, <br />
+		Les étourdissements d’Hermione et de Phèdre&#160;;<br />
+		<br />
+		Toujours privé de vous, feuilleter par hasard, <br />
+		Tandis que l’âcre été répand son chaud malaise, <br />
+		Ce livre où noblement la Cassandre française <br />
+		Couche au linceul de gloire et sourit à Ronsard. <br />
+		<br />
+		Et quand l’automne roux effeuille les charmilles <br />
+		Où s’asseyait le soir l’amante de Rousseau, <br />
+		Être une vieille, avec sa laine et son fuseau, <br />
+		Qui s’irrite et qui jette un sort aux jeunes filles…<br />
+		<br />
+		— Ah&#160;! Jeunesse, qu’un jour vous ne soyez plus là, <br />
+		Vous, vos rêves, vos pleurs, vos rires et vos roses, <br />
+		Les Plaisirs et l’Amour vous tenant, — quelle chose, <br />
+		Pour ceux qui n’ont vraiment désiré que cela…<br />
+		</p>
+	</section>
+
+<br>
+<section class="Sources"><p class=SourcesTitre>Sources<br></p>
+	<a href="https://fr.wikipedia.org/wiki/Anna_de_Noailles">Page Wikipédia d'Anna de Noailles</a><br>
+	<a href="https://www.annadenoailles.org/">Site consacré à la vie et les oeuvres d'Anna de Noailles</a>
+</section>
+
+
+</body>
+
+
+<script>
+fetch('menu.html').then(function (response) {
+	return response.text();
+}).then(function (html) {
+	document.querySelector("nav.menu").innerHTML = html;
+});
+</script>
+</html>
