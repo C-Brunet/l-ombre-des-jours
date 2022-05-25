@@ -1,0 +1,58 @@
+<class hidden>https://fr.wikisource.org/wiki/L%E2%80%99Ombre_des_jours</class>
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>L'Ombre des jours d'Anna de Noailles</title>
+	<link rel="stylesheet" href="CSS_Ombre.css">
+	<link rel="icon" type="image/png" href="Logo_plume.png">
+	<meta name="author" content="Clémence Brunet">
+</head>
+
+
+<body>
+	<center>
+		<h1>L'Ombre des jours d'Anna de Noailles</h1>
+
+<div class="Séparateur"><img src="Séparateur-accueil1.png" alt="Séparateur" height= "35px"></div>
+	</center>
+
+
+	<div class="Recherche">
+		<form method="post" action="">
+			<fieldset>
+				
+				<input type="text" id="search" class="text" value="Recherche" onfocus="if (this.value == 'Search!') this.value = '';" onblur="if (this.value == '') this.value = 'Search!';" maxlength="255" />
+				<input type="image" src="Loupe.png" class="button" />
+			</fieldset>
+		</form>
+	</div>
+
+<nav class="menu"></nav>
+
+
+
+<h2>Présentation</h2>
+	<section class= Texte_courant>
+		<p>Ce master professionnel est consacré aux métiers de l'édition. Mais nous avons des formations dans tous les domaines de la chaîne du livre, allant de la préparation de copie à la fabrication, en passant par le marketing et l'iconographie.</p>
+		<p>Mais nous avons également des enseignements spécifiques à l'édition numérique : ePub, applications, bases du HTML et du CSS...</p>
+		<p>C'est dans le cadre de ces cours que nous avons dû réaliser un site internet accessible. J'ai choisi de présenter ce recueil d'Anna de Noailles dans le cadre du projet <a href=https://citedesdames.hypotheses.org/>Cité des Dames</a>, projet Wikidata mettant en avant les écrits de femmes sur Wikisource.</p>
+	</section>
+
+
+<center><br><br><br>
+	<div class="Séparateur"><img src="Séparateur-accueil1.png" alt="Séparateur" height= "35px"></div>
+</center>
+
+</body>
+
+
+<script>
+fetch('menu.html').then(function (response) {
+	return response.text();
+}).then(function (html) {
+	document.querySelector("nav.menu").innerHTML = html;
+});
+</script>
+</html>
