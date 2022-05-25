@@ -15,7 +15,7 @@ h2 {font-weight: normal; color: #EFDD98; font-family: "Manuscrite"; font-size: 5
 	margin-block-start: 20px;
     margin-block-end: 10px;
     }
-h3 {font-weight: normal; color: white; font: script; font-size: 20;}
+h3 {font-weight: normal; color: #EFDD98; font: script; font-size: 20;}
 
 p, div, li {color: black; font: Times New Roman; font-size: 14}
 
@@ -28,6 +28,8 @@ nav {list-style-type:none;}
 
 .Texte_courant {color: black; font: Times New Roman; font-size: 15}
 
+.Texte_bio {color: black; font: Times New Roman; font-size: 15; columns: 2}
+
 .copyright {color: black; font: Times New Roman; font-size: 10}
 
 .SourcesTitre {color: #EFDD98; font-family: Manuscrite; font-size: 35; 
@@ -37,7 +39,7 @@ nav {list-style-type:none;}
 .Recherche {top: 2px; width: 230px;}
 
 
-#Chapitre {display: flex; flex-wrap: wrap; align-content: center;}
+#Chapitre {display: flex; flex-wrap: wrap; align-content: stretch;}
 
 #SChap1 a {font-weight: normal; color: #7795B9; font: script; font-size: 17px;}
 #SChap2 a {font-weight: normal; color: #7795B9; font: script; font-size: 17px;}
