@@ -39,7 +39,7 @@ nav {list-style-type:none;}
 .Recherche {top: 2px; width: 230px;}
 
 
-#Chapitre {display: flex; flex-wrap: wrap; align-content: stretch;}
+#Chapitre {display: center; flex-wrap: wrap; align-content: stretch;}
 
 #SChap1 a {font-weight: normal; color: #7795B9; font: script; font-size: 17px;}
 #SChap2 a {font-weight: normal; color: #7795B9; font: script; font-size: 17px;}
