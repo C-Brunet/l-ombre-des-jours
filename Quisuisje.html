@@ -1,0 +1,57 @@
+<class hidden>https://fr.wikisource.org/wiki/L%E2%80%99Ombre_des_jours</class>
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>L'Ombre des jours d'Anna de Noailles</title>
+	<link rel="stylesheet" href="CSS_Ombre.css">
+	<link rel="icon" type="image/png" href="Logo_plume.png">
+	<meta name="author" content="Clémence Brunet">
+</head>
+
+
+<body>
+	<center>
+		<h1>L'Ombre des jours d'Anna de Noailles</h1>
+
+<div class="Séparateur"><img src="Séparateur-accueil1.png" alt="Séparateur" height= "35px"></div>
+	</center>
+
+
+	<div class="Recherche">
+		<form method="post" action="">
+			<fieldset>
+				
+				<input type="text" id="search" class="text" value="Recherche" onfocus="if (this.value == 'Search!') this.value = '';" onblur="if (this.value == '') this.value = 'Search!';" maxlength="255" />
+				<input type="image" src="Loupe.png" class="button" />
+			</fieldset>
+		</form>
+	</div>
+
+<nav class="menu"></nav>
+
+
+
+<h2>Présentation</h2>
+	<section class= Texte_courant>
+		<p>Etudiante à l'université Gustave Eiffel, je suis en master 1 Edition du livre papier et numérique.</p>
+		<p>Dans le cadre de nos cours sur les techniques et les outils numériques, j'ai réalisé ce site en HTML et en CSS, afin de m'approprier ces techniques et de développer ma compréhension de ce milieu.</p>
+	</section>
+
+
+<center><br><br><br>
+	<div class="Séparateur"><img src="Séparateur-accueil1.png" alt="Séparateur" height= "35px"></div>
+</center>
+
+</body>
+
+
+<script>
+fetch('menu.html').then(function (response) {
+	return response.text();
+}).then(function (html) {
+	document.querySelector("nav.menu").innerHTML = html;
+});
+</script>
+</html>
